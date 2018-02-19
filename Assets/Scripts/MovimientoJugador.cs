@@ -41,7 +41,10 @@ public class MovimientoJugador : MonoBehaviour
         {
             animator.SetBool("caminando", true);
 
-        }
+              
+            }
+
+
 
         if (velocidad.z == 0)
         {

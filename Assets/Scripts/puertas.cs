@@ -12,7 +12,7 @@ public class puertas : MonoBehaviour {
 	void Start () {
 
         animator = GetComponent<Animator>();
-        hecho = false;
+        
         
 	}
 
@@ -30,14 +30,16 @@ public class puertas : MonoBehaviour {
 
     void test()
     {
+
         if (GameManager.AnimarBaño)
         {
 
             ControlPuerta("Abierta");
-    
-            
+
+
         }
 
+    
 
     }
 
